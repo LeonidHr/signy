@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Signy</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230530204312">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header data-scroll class="header">
+			<div class="header__container d-flex ai-center">
+				<a href="home.html" class="header__logo logo">
+					<picture><source srcset="img/logo.webp" type="image/webp"><img class="img-fluid" src="img/logo.png" alt="Logo"></picture>
+				</a>
+				<div data-one-select class="header__body d-flex ai-center jc-end">
+					<div data-da=".menu__content,992,first" class="header__spoller header__item">
+						<div data-spollers="767,max" class="spollers-header">
+							<div data-dropdown class="spollers-header__item">
+								<a href="tel:0800750643" class="header__link">0 800 750 643</a>
+								<button type="button" data-spoller data-dropdown-btn class="spollers-header__title _icon-arrow-down"></button>
+								<ul class="spollers-header__body">
+									<li class="spollers-header__body-item">
+										<a href="tel:380443345643" class="spollers-header__link header__link">+380 44 334 56 43</a>
+									</li>
+									<li class="spollers-header__body-item">
+										<a href="tel:380443388643" class="spollers-header__link header__link">+380 44 334 56 43</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="header__menu menu">
+						<nav class="menu__body">
+							<a href="home.html" class="menu__logo logo">
+								<picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="Logo"></picture>
+							</a>
+							<div class="menu__content">
+								<ul class="menu__list d-flex ai-center header__item header__item_border-none">
+									<li class="menu__item menu__spoller">
+										<div data-spollers="767,max" class="spollers-header">
+											<div data-dropdown class="spollers-header__item">
+												<a href="about.html" class="spollers-header__link header__link">ПРО НАС</a>
+												<button type="button" data-spoller data-dropdown-btn class="spollers-header__title _icon-arrow-down"></button>
+												<ul class="spollers-header__body">
+													<li class="spollers-header__body-item">
+														<a href="blog.html" class="spollers-header__link header__link">блог</a>
+													</li>
+													<li class="spollers-header__body-item">
+														<a href="videos.html" class="spollers-header__link header__link">Видео</a>
+													</li>
+													<li class="spollers-header__body-item">
+														<a href="faq.html" class="spollers-header__link header__link">Вопросы</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</li>
+									<li class="menu__item"><a href="prices.html" class="menu__link header__link">ЦЕНЫ</a></li>
+									<li class="menu__item"><a href="contacts.html" class="menu__link header__link">КОНТАКТЫ</a></li>
+								</ul>
+							</div>
+						</nav>
+					</div>
+					<div data-da=".menu__content,992,last" class="header__btns d-flex ai-center header__item header__item_border-none">
+						<button class="button header__btn" type="button">регистрация</button>
+						<button class="button button_no-bg header__btn" type="button">Вход</button>
+					</div>
+
+					<form data-da=".menu__content,992,last" class="header__lang header__item" action="#" method="POST">
+						<select name="form[]" data-class-modif="lang">
+							<option data-da=".header__lang,992,last" value="1" class="header__link" data-class="header__link" selected>Рус</option>
+							<option data-da=".header__lang,992,last" value="2" class="header__link" data-class="header__link">Укр</option>
+						</select>
+					</form>
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+				</div>
+			</div>
+		</header>
+
+		<main class="page home">
+			<section class="main-slider">
+				<div class="main-slider__container">
+					<div class="main-slider__slider swiper">
+						<h2 class="main-slider__title title">Цифровой документооборот в три этапа:</h2>
+						<div class="main-slider-pagination">
+							<button class="main-slider-pagination__btn" data-index="0">1</button>
+							<button class="main-slider-pagination__btn" data-index="1">2</button>
+							<button class="main-slider-pagination__btn" data-index="2">3</button>
+						</div>
+						<div class="main-slider__wrapper swiper-wrapper">
+							<div class="main-slider__slide swiper-slide">
+								<div class="main-slider__content content-block">
+									<h4 class="content-block__title">Быстрая регистрация</h4>
+									<p class="content-block__text">
+										Мы создали, возможно, самую простую регистрацию. Регистрируйся, получай полный доступ к сервису и 1000 подписей документов в подарок!
+									</p>
+									<button type="button" data-popup="#popup-demo" class="content-block__btn button button_pt-17">Попробовать Бесплатно</button>
+								</div>
+								<div class="main-slider__img">
+									<picture><source srcset="img/main-slider/1.webp" type="image/webp"><img src="img/main-slider/1.png" alt=""></picture>
+								</div>
+							</div>
+							<div class="main-slider__slide swiper-slide">
+								<div class="main-slider__content content-block">
+									<h4 class="content-block__title">Загрузи документ</h4>
+									<p class="content-block__text">
+										Загружай в систему любой документ которые надо подписать, договор, акт выполненных работ,
+										да что угодно
+									</p>
+									<button type="button" data-popup="#popup-demo" class="content-block__btn button button_pt-17">Попробовать Бесплатно</button>
+								</div>
+								<div class="main-slider__img">
+									<picture><source srcset="img/main-slider/2.webp" type="image/webp"><img src="img/main-slider/2.png" alt=""></picture>
+								</div>
+							</div>
+							<div class="main-slider__slide swiper-slide">
+								<div class="main-slider__content content-block">
+									<h4 class="content-block__title">Подпиши и отправь</h4>
+									<p class="content-block__text">
+										Подписывай своей электронно-цифровой подписью и за долю секунды отправь партнеру или компании.
+										Он подписывает в ответ и все! Готово!
+									</p>
+									<button type="button" data-popup="#popup-demo" class="content-block__btn button button_pt-17">Попробовать Бесплатно</button>
+								</div>
+								<div class="main-slider__img">
+									<picture><source srcset="img/main-slider/3.webp" type="image/webp"><img src="img/main-slider/3.png" alt="Подпиши и отправь"></picture>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-pagination main-slider__pagination swiper-pagination_absolute"></div>
+					</div>
+				</div>
+			</section>
+			<section class="pros bg-w">
+				<div class="pros__container d-flex">
+					<div class="pros__item item-pros col-md-4 d-flex ai-center">
+						<div class="item-pros__icon">
+							<picture><source srcset="img/pros/1.webp" type="image/webp"><img src="img/pros/1.png" class="img-fluid" alt="Моментально"></picture>
+						</div>
+						<div class="item-pros__content content-block">
+							<h4 class="content-block__title">Моментально</h4>
+							<p class="content-block__text">
+								Никаких задержек.
+								1 секунда на подписание
+							</p>
+						</div>
+					</div>
+					<div class="pros__item item-pros col-md-4 d-flex ai-center">
+						<div class="item-pros__icon">
+							<picture><source srcset="img/pros/2.webp" type="image/webp"><img src="img/pros/2.png" class="img-fluid" alt="Глобально"></picture>
+						</div>
+						<div class="item-pros__content content-block">
+							<h4 class="content-block__title">Глобально</h4>
+							<p class="content-block__text">
+								Сервис доступен 24\7 со всех устройств
+							</p>
+						</div>
+					</div>
+					<div class="pros__item item-pros col-md-4 d-flex ai-center">
+						<div class="item-pros__icon">
+							<picture><source srcset="img/pros/3.webp" type="image/webp"><img src="img/pros/3.png" class="img-fluid" alt="Экономно"></picture>
+						</div>
+						<div class="item-pros__content content-block">
+							<h4 class="content-block__title">Экономно</h4>
+							<p class="content-block__text">
+								В 30 раз дешевле чем почта и курьеры
+							</p>
+						</div>
+					</div>
+
+				</div>
+			</section>
+			<section class="info">
+				<div class="info__container">
+					<article class="info__item item-info d-flex ai-center">
+						<div class="item-info__content content-block">
+							<h1 class="item-info__title title">Комфорт в работе</h1>
+							<ul class="item-info__text text">
+								<li>
+									Создавай документы по твоим личным привычным шаблонам. Это индивидуально!
+								</li>
+								<li>Настраивай порядок подписание документа, если вас несколько человек. Это ответственно!</li>
+								<li>Загружай XML файл с собственным шаблоном готового документа. Это удобно!</li>
+								<li>Работай в супер простом и понятном интерфейсе без сложностей. Это приятно!</li>
+							</ul>
+							<button type="button" data-popup="#popup-demo" class="item-info__btn content-block__btn content-block__btn_s14 button button_no-bg button_pt-17">Узнать больше</button>
+						</div>
+						<div class="item-info__img">
+							<picture><source data-srcset="img/info/1.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  class="img-fluid" data-src="img/info/1.png" alt="Комфорт в работе"></picture>
+						</div>
+					</article>
+					<article class="info__item item-info item-info_rev d-flex ai-center">
+						<div class="item-info__content content-block">
+							<h1 class="item-info__title title">Наш продукт это:</h1>
+							<ul class="item-info__text text">
+								<li>Web версия без установки программного обеспечения</li>
+								<li>Возможность бесплатно и безлимитно обрабатывать входящие документы</li>
+								<li>Простота интеграции с 1С и другими сервисами</li>
+								<li>Поддержка входа через Mobile ID</li>
+							</ul>
+							<a href="#" class="item-info__btn content-block__btn content-block__btn_s14 button button_pt-17">Зарегистрироватся</a>
+						</div>
+						<div class="item-info__img">
+							<picture><source data-srcset="img/info/1.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  class="img-fluid" data-src="img/info/1.png" alt="Комфорт в работе"></picture>
+						</div>
+					</article>
+				</div>
+			</section>
+			<section class="packages bg-w">
+				<div class="packages__container container-sm">
+					<h2 class="packages__title title title_center">Пакеты цифровых подписей </h2>
+					<div class="packages__list d-grid col-xl-20 col-md-50 col-vsm-100">
+						<article class="packages__item item-packages content-block d-flex direction-col">
+							<a href="#" class="item-packages__title hhv-blue">Demo</a>
+							<p class="item-packages__descr">30 документів</p>
+							<div class="item-packages__price"><span>0</span>грн/місяць</div>
+							<button class="item-packages__btn button content-block__btn content-block__btn_s12" type="button">Зарегистрироваться</button>
+						</article>
+						<article class="packages__item item-packages content-block d-flex direction-col">
+							<a href="#" class="item-packages__title hhv-blue">Business</a>
+							<p class="item-packages__descr">1 000 документів</p>
+							<div class="item-packages__price"><span>1 000</span>грн/рік</div>
+							<button class="item-packages__btn button content-block__btn content-block__btn_s12" type="button">Закакзать</button>
+						</article>
+						<article class="packages__item item-packages content-block d-flex direction-col">
+							<a href="#" class="item-packages__title hhv-blue">Pro</a>
+							<p class="item-packages__descr">10 000 документів</p>
+							<div class="item-packages__price"><span>9 000</span>грн/рік</div>
+							<button class="item-packages__btn button content-block__btn content-block__btn_s12" type="button">Заказать</button>
+						</article>
+						<article class="packages__item item-packages content-block d-flex direction-col">
+							<a href="#" class="item-packages__title hhv-blue">Individual</a>
+							<p class="item-packages__descr">Необмежена кількість документів</p>
+							<div class="item-packages__price"></div>
+							<button data-popup="#popup-demo" class="item-packages__btn button content-block__btn content-block__btn_s12" type="button">Связаться с нами</button>
+						</article>
+					</div>
+				</div>
+			</section>
+			<section class="num">
+				<div class="num__container text-center">
+					<div class="num__content">
+						<div class="num__num">5 820 125 114</div>
+						<h2 class="num__title title">подписано документов</h2>
+						<p class="num__text text">Наша компания уже более 30 лет создает удобные решения для бизнеса любого размера. Мы гордимся Signy как безопасным и комфортным продуктом</p>
+					</div>
+				</div>
+			</section>
+			<section class="partners bg-w">
+				<div class="partners__container">
+					<h2 class="partners__title title title_center">Друзья Signy</h2>
+					<div class="partners__slider swiper">
+						<div class="partners__wrapper swiper-wrapper">
+							<div class="partners__slide swiper-slide">
+								<div class="partners__img">
+									<picture><source data-srcset="img/partners/1.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  class="img-fluid" data-src="img/partners/1.png" alt=""></picture>
+								</div>
+							</div>
+							<div class="partners__slide swiper-slide">
+								<div class="partners__img">
+									<picture><source data-srcset="img/partners/2.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  class="img-fluid" data-src="img/partners/2.png" alt=""></picture>
+								</div>
+							</div>
+							<div class="partners__slide swiper-slide">
+								<div class="partners__img">
+									<picture><source data-srcset="img/partners/3.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  class="img-fluid" data-src="img/partners/3.png" alt=""></picture>
+								</div>
+							</div>
+							<div class="partners__slide swiper-slide">
+								<div class="partners__img">
+									<picture><source data-srcset="img/partners/4.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  class="img-fluid" data-src="img/partners/4.png" alt=""></picture>
+								</div>
+							</div>
+							<div class="partners__slide swiper-slide">
+								<div class="partners__img">
+									<picture><source data-srcset="img/partners/5.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  class="img-fluid" data-src="img/partners/5.png" alt=""></picture>
+								</div>
+							</div>
+							<div class="partners__slide swiper-slide">
+								<div class="partners__img">
+									<picture><source data-srcset="img/partners/6.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  class="img-fluid" data-src="img/partners/6.png" alt=""></picture>
+								</div>
+							</div>
+							<div class="partners__slide swiper-slide">
+								<div class="partners__img">
+									<picture><source data-srcset="img/partners/7.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  class="img-fluid" data-src="img/partners/7.png" alt=""></picture>
+								</div>
+							</div>
+							<div class="partners__slide swiper-slide">
+								<div class="partners__img">
+									<picture><source data-srcset="img/partners/8.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  class="img-fluid" data-src="img/partners/8.png" alt=""></picture>
+								</div>
+							</div>
+							<div class="partners__slide swiper-slide">
+								<div class="partners__img">
+									<picture><source data-srcset="img/partners/9.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  class="img-fluid" data-src="img/partners/9.png" alt=""></picture>
+								</div>
+							</div>
+							<div class="partners__slide swiper-slide">
+								<div class="partners__img">
+									<picture><source data-srcset="img/partners/10.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  class="img-fluid" data-src="img/partners/10.png" alt=""></picture>
+								</div>
+							</div>
+							<div class="partners__slide swiper-slide">
+								<div class="partners__img">
+									<picture><source data-srcset="img/partners/11.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  class="img-fluid" data-src="img/partners/11.png" alt=""></picture>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-pagination partners__pagination"></div>
+					</div>
+				</div>
+			</section>
+			<section class="articles">
+				<div class="articles__container">
+					<h2 class="articles__title title title_center">Интересно пишем про </h2>
+					<div class="articles__items items-articles">
+						<article class="articles__item item-articles item-articles_home">
+							<a href="#" class="item-articles__image-ibg item-articles__image-ibg_h fog-img">
+								<picture><source data-srcset="img/articles/1.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/articles/1.jpg" alt=""></picture>
+							</a>
+							<div class="item-articles__content content-block">
+								<a href="#" class="item-articles__date hhv-blue">28.04.2023</a>
+								<a href="#" class="item-articles__title content-block__title hhv-blue">
+									Заголовок короткий в две строки
+								</a>
+							</div>
+						</article>
+						<article class="articles__item item-articles item-articles_home">
+							<a href="#" class="item-articles__image-ibg item-articles__image-ibg_h fog-img">
+								<picture><source data-srcset="img/articles/2.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/articles/2.jpg" alt=""></picture>
+							</a>
+							<div class="item-articles__content content-block">
+								<a href="#" class="item-articles__date hhv-blue">28.04.2023</a>
+								<a href="#" class="item-articles__title content-block__title hhv-blue">
+									Заголовок короткий в две строки
+								</a>
+							</div>
+						</article>
+						<article class="articles__item item-articles item-articles_home">
+							<a href="#" class="item-articles__image-ibg item-articles__image-ibg_h fog-img">
+								<picture><source data-srcset="img/articles/3.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/articles/3.jpg" alt=""></picture>
+							</a>
+							<div class="item-articles__content content-block">
+								<a href="#" class="item-articles__date hhv-blue">28.04.2023</a>
+								<a href="#" class="item-articles__title content-block__title hhv-blue">
+									Заголовок короткий в две строки
+								</a>
+							</div>
+						</article>
+					</div>
+				</div>
+			</section>
+			<section class="home-video bg-w">
+				<div class="home-video__container">
+					<h2 class="home-video__title title title_center">Познакомимся в живую? </h2>
+					<div class="home-video__video">
+						<a type="button" data-popup="#popup-video" data-popup-youtube="OtaCvKGjA3w" class="item-articles__image-ibg item-articles__image-ibg_video _icon-triangle">
+							<picture><source data-srcset="img/video/home.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  class="img-fluid" data-src="img/video/home.jpg" alt="Burn Calories Quicker in 30 Min."></picture>
+						</a>
+					</div>
+				</div>
+			</section>
+			<section class="questions">
+				<div class="questions__container">
+					<h2 class="questions__title title title_center">
+						Популярные вопросы и ответы на них
+					</h2>
+					<div data-spollers data-one-spoller class="spollers-questions">
+						<div class="spollers-questions__item">
+							<button type="button" data-spoller class="spollers-questions__title text">
+								Что такое сервис signy и зачем он нужен?
+							</button>
+							<div class="spollers-questions__body">
+								<p class="text">
+									Signy — это сервис электронного документооборота. Он позволяет обмениваться любыми документами со своими контрагентами, а также предоставлять документам юридическую силу, подписывая их КЭП (ЭЦП). С работодателем сервиса электронного документооборота Signy вы значительно сэкономите время и средства на отправке документов, ведь все будет происходить в считанные минуты и не потребует расходов на бумагу, печать и услуги доставки.
+								</p>
+							</div>
+						</div>
+						<div class="spollers-questions__item">
+							<button type="button" data-spoller class="spollers-questions__title text">
+								Сколько стоит внедрение электронного документооборота?
+							</button>
+							<ul class="spollers-questions__body">
+								<li class="text">
+									За внедрение самого сервиса Signy компания ничего не платит. Тарифицируется только создание документов в сервисе. Стоимость зависит от выбранного пакета.
+								</li>
+							</ul>
+						</div>
+						<div class="spollers-questions__item">
+							<button type="button" data-spoller class="spollers-questions__title text">
+								Как проверить остаток доступных документов?
+							</button>
+							<ul class="spollers-questions__body">
+								<li class="text">
+									Для того, чтобы проверить количество документов, которые еще остались, необходимо нажать на картинку профиля в правом верхнем углу. Перейдите к разделу «Управление профилем», чтобы более подробно ознакомиться со своим пакетом, количеством документов и сроком их действия.
+								</li>
+							</ul>
+						</div>
+						<div class="spollers-questions__item">
+							<button type="button" data-spoller class="spollers-questions__title text">
+								Какое программное обеспечение нужно для работы в сервисе signy?
+							</button>
+							<ul class="spollers-questions__body">
+								<li class="text">
+									Для работы в сервисе Signy не требуется дополнительное программное обеспечение, достаточно лишь иметь доступ к сети Интернет. Это очень удобно для всех участников бизнес-процесса.
+								</li>
+							</ul>
+						</div>
+						<div class="spollers-questions__item">
+							<button type="button" data-spoller class="spollers-questions__title text">
+								Какие операции с документами можно выполнять с помощью сервиса signy?
+							</button>
+							<ul class="spollers-questions__body">
+								<li class="text">
+									Сервис Signy позволяет выполнять следующие операции: загружать документы с ПК или создавать их по индивидуальным шаблонам, подписывать документы с помощью КЭП (файлового, токена или Mobile ID), настраивать персональный маршрут подписания/согласования документа, отслеживать изменение статуса документа онлайн, редактировать и комментировать документы непосредственно в самом сервисе, загружать документы на свой ПК вместе с подписями и протоколом подписания, что дает возможность убедиться в их юридической значимости, использовать умный поиск и доступ к документам 24/7.
+								</li>
+							</ul>
+						</div>
+						<div class="spollers-questions__item">
+							<button type="button" data-spoller class="spollers-questions__title text">
+								Чем регламентируется использование электронных документов и ​​электронного документооборота?
+							</button>
+							<ul class="spollers-questions__body">
+								<li class="text">
+									Порядок использования электронных документов регулируется законами Украины <a href="http://zakon.rada.gov.ua/laws/show/2155-19" target="_blank">«Об электронных доверительных услугах»</a> и <a href="https://zakon.rada.gov.ua/laws/show/851-15#Text" target="_blank">«Об электронных документах и ​​электронном документообороте»</a>. Подробнее об этом читайте в нашем <a href="#" target="_blank">блоге</a>.
+								</li>
+							</ul>
+						</div>
+						<div class="spollers-questions__item">
+							<button type="button" data-spoller class="spollers-questions__title text">
+								Где взять кэп (эцп), которой можно подписывать документы?
+							</button>
+							<ul class="spollers-questions__body">
+								<li class="text">
+									Если вы владеете КЭП (ЭЦП), которой пользуетесь для подачи отчетности в государственные органы, вы можете использовать ее для подписания документов внутри сервиса Signy. Обращаем ваше внимание, что юридические лица имеют право использовать КЭП (ЭЦП), выданную юридическому лицу, которая включает в себя информацию о ЕГРПОУ. Если у вас нет КЭП (ЭЦП), то для ее получения обратитесь в один из <a href="http://www.ukrstat.gov.ua/elektr_zvit/inf_akcen/centr.htm" target="_blank">аккредитованных центров сертификации ключей.</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="subscribe bg-w">
+				<div class="subscribe__container text-center">
+					<div class="subscribe__content">
+						<h2 class="subscribe__title title title_center">Подпишись на наши новости!</h2>
+						<p class="subscribe__text text">Введи свой электронный адрес и будь в курсе всех обновлений</p>
+						<form data-ajax data-hidden-after-submit action="files/sendmail/sendmail.php" method="POST" class="subscribe__form subscribe-form form d-flex jc-center ai-start">
+							<div class="form__item subscribe-form__item">
+								<input data-validate-now autocomplete="off" data-required="email" type="text" name="form[email]" data-error="Введи корректный e-mail" placeholder="" class="form__input form__input_blue">
+								<span class="_icon-check form__icon"></span>
+								<span class="_icon-warning form__icon"></span>
+							</div>
+							<button class="form__btn button button_pt-17 content-block__btn content-block__btn_s14" type="submit">отправить</button>
+						</form>
+					</div>
+					<div class="subscribe__submit">
+						<h2 class="subscribe__title title title_center">Отлично!</h2>
+						<p class="subscribe__text text">На адресс <span id="input-email" class="fw-500">example@maile.com</span> теперь будут приходить самые важные новости</p>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<a href="home.html" class="footer__logo logo">
+					<picture><source srcset="img/logo-w.webp" type="image/webp"><img src="img/logo-w.png" class="img-fluid" alt="Logo"></picture>
+				</a>
+				<div class="footer__content d-flex ai-start">
+					<div class="footer__item item-footer d-flex ai-start">
+						<ul class="item-footer__list">
+							<li class="item-footer__item"><a href="#" class="item-footer__link hhv-blue">Про нас</a></li>
+							<li class="item-footer__item"><a href="#" class="item-footer__link hhv-blue">Цены</a></li>
+							<li class="item-footer__item item-footer__item_r item-footer__item_r-1"><a href="#" class="item-footer__link hhv-blue">Вход</a></li>
+							<li class="item-footer__item item-footer__item_r item-footer__item_r-2"><a href="#" class="item-footer__link hhv-blue">Регистрация</a></li>
+						</ul>
+						<ul class="item-footer__list">
+							<li data-da=".item-footer__list,480" class="item-footer__item"><a href="#" class="item-footer__link hhv-blue">Блог</a></li>
+							<li data-da=".item-footer__list,480" class="item-footer__item"><a href="#" class="item-footer__link hhv-blue">Контакты</a></li>
+						</ul>
+					</div>
+					<div class="footer__item item-footer item-footer_2 d-flex ai-start">
+						<ul class="item-footer__list">
+							<li data-da=".item-footer__list,480" class="item-footer__item"><a href="mailto:infosmartsign@smarttender.biz" class="item-footer__link hhv-blue">infosmartsign@smarttender.biz</a></li>
+							<li data-da=".item-footer__list,480" class="item-footer__item"><a href="https://facebook.com" class="item-footer__link hhv-blue">Facebook</a></li>
+						</ul>
+						<ul class="item-footer__list">
+							<li data-da=".item-footer__list,480" class="item-footer__item item-footer__item_grey">
+								<a href="https://goo.gl/maps/TrsVa8p7H2iMc4AR7" class="item-footer__link hhv-blue">пр-т Миколи Бажана, 14 А Київ, 02072</a>
+							</li>
+							<li data-da=".item-footer__list,480" class="item-footer__item item-footer__item_grey">
+								<a href="tel:0800750643" class="item-footer__link hhv-blue">0 800 750643</a>
+							</li>
+							<li data-da=".item-footer__list,480" class="item-footer__item item-footer__item_grey">
+								<a href="tel:380443345643" class="item-footer__link hhv-blue">+380 44 334 56 43</a>
+							</li>
+							<li data-da=".item-footer__list,480" class="item-footer__item item-footer__item_grey">
+								<a href="tel:380443388643" class="item-footer__link hhv-blue">+380 44 338 86 43</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer-bottom">
+					<div class="footer-bottom__item">
+						<a class="footer-bottom__link">© 2020 Signy</a>
+					</div>
+					<div class="footer-bottom__item">
+						<a href="#" class="footer-bottom__link hhv-blue">Договір оферти</a>
+					</div>
+					<div class="footer-bottom__item">
+						<a href="#" class="footer-bottom__link hhv-blue">Безпека сервісу</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+
+
+
+
+	</div>
+	<div id="popup-video" aria-hidden="true" class="popup popup_video">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close _icon-exit"></button>
+				<div class="popup__text"></div>
+			</div>
+		</div>
+	</div>
+
+	<div id="popup-form" aria-hidden="true" class="popup popup-form">
+		<div class="popup__wrapper popup-form__wraper">
+			<div class="popup__content text-center popup-form__content">
+				<div data-popap-title class="popup-form__inner">
+					<button data-close type="button" class="popup__close popup-form__close _icon-exit"></button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="popup-demo" aria-hidden="true" class="popup popup-demo">
+		<div class="popup__wrapper popup-demo__wraper">
+			<div class="popup__content text-center popup-demo__content form">
+				<div data-popap-title class="popup-demo__inner text-center">
+					<button data-close type="button" class="popup__close popup-demo__close _icon-exit"></button>
+					<h2 class="popup-demo__title title title_s30">Демо версия</h2>
+					<p class="popup-demo__text text">
+						Заполни форму и наши менеджеры свяжутся с тобой
+					</p>
+					<form data-title="Демо версия" data-popup-message="#popup-form" data-ajax action="files/sendmail/sendmail.php" method="POST" class="form__form d-flex direction-col ai-center m-auto text-start">
+						<div class="form__item">
+							<label for="name" class="form__label">Имя*:</label>
+							<input data-disabled data-validate-now id="name" autocomplete="off" data-required type="text" name="form[name]" data-error="Введи ваше имя" data-placeholder-nohide placeholder="Иван" class="form__input" />
+							<span class="_icon-check form__icon"></span>
+							<span class="_icon-warning form__icon"></span>
+						</div>
+						<div class="form__item">
+							<label for="email" class="form__label">Электронная почта*:</label>
+							<input data-disabled data-validate-now id="email" autocomplete="off" data-required="email" type="text" name="form[email]" data-error="Введи корректный e-mail" placeholder="ivan@mail.com" class="form__input" />
+							<span class="_icon-check form__icon"></span>
+							<span class="_icon-warning form__icon"></span>
+						</div>
+						<div class="form__item">
+							<label for="phone" class="form__label">Телефон*:</label>
+							<input data-disabled data-validate-now id="phone" autocomplete="off" data-required="phone" type="text" name="form[phone]" data-error="Введи корректный номер телефона" placeholder="+38 000 000 00 00" class="form__input" />
+							<span class="_icon-check form__icon"></span>
+							<span class="_icon-warning form__icon"></span>
+						</div>
+						<button data-disabled-btn class="form__btn button button_pt-17 content-block__btn content-block__btn_s14 _disabled" type="submit">
+							отправить
+						</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/app.min.js?_v=20230530204312"></script>
+</body>
+
+</html>
