@@ -1,0 +1,70 @@
+.faq {
+  @include adaptiveValue("padding-top", 24, 5);
+  @include adaptiveValue("padding-bottom", 33, 24);
+
+  // .faq__container
+
+  &__container {
+  }
+
+  // .faq__title
+
+  &__title {
+    &:not(:last-child) {
+      @include adaptiveValue("margin-bottom", 40, 19);
+    }
+  }
+}
+
+.faq-spollers {
+
+  // .faq-spollers__item
+
+  &__item {
+    &:not(:last-child) {
+      margin-bottom: rem(24);
+    }
+  }
+
+  // .faq-spollers__title
+
+  &__title {
+    span {
+      text-transform: none;
+    }
+  }
+
+  // .faq-spollers__text
+
+  &__text {
+    margin-top: rem(10);
+    @include adaptiveValue("font-size", 18, 14);
+    transition: all 0.4s ease 0s;
+
+    ._spoller-active & {
+      opacity: 0;
+      margin-top: rem(-10);
+    }
+  }
+
+  // .faq-spollers__body
+
+  &__body {
+  }
+}
+
+//========================================================================================================================================================
+
+.faq-form {
+  @include adaptiveValue("padding-top", 42, 15);
+  @include adaptiveValue("padding-bottom", 26, 40);
+
+  // .faq-form__text
+
+  &__text {
+    margin-top: rem(-20);
+    &:not(:last-child) {
+      @include adaptiveValue("margin-bottom", 24, 15);
+    }
+  }
+}

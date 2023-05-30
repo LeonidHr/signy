@@ -1,0 +1,201 @@
+//<FORM>
+// Сніппет (HTML):
+.subscribe-form {
+	max-width: rem(595);
+	margin: 0 auto;
+	@media (max-width: em(610)){
+		flex-direction: column; 
+	}
+
+  // .subscribe-form__item 
+
+  &__item {
+		@media (min-width:em(610.98)){
+			flex: 0 0 rem(400); 
+		}
+	}
+
+	.form__btn {
+		letter-spacing: 0.19em;
+		@media (max-width: em(610)){
+			align-self: center; 
+		}
+	}
+}
+
+.form {
+	row-gap: rem(23);
+	column-gap: rem(18);
+
+  // .form__container
+
+  &__container {
+  }
+  
+  // .form__form
+
+  &__form {
+    max-width: rem(420);
+    @include adaptiveValue("margin-bottom", 48, 27);
+  }
+
+  // .form__label
+
+  &__label {
+    margin-left: rem(15);
+  }
+
+  // .form__title
+
+  &__title {
+    &:not(:last-child) {
+      @include adaptiveValue("margin-bottom", 24, 20);
+    }
+  }
+
+  // .form__item
+
+  &__item {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    @include adaptiveValue("row-gap", 13, 6);
+    &:not(:last-child) {
+      @include adaptiveValue("margin-bottom", 25, 18);
+    }
+  }
+
+  // .form__input
+
+  &__input {
+		width: 100%;
+    background: #FFFFFF;
+    border-radius: 37px;
+    @include adaptiveValue("min-height", 42, 35, 0, 767, 480);
+    padding: 0 rem(15);
+    transition: all 0.2s ease 0s;
+    border: 1px solid rgba(6, 18, 36, 0.9);
+    width: 100%;
+    font-size: rem(15);
+
+    // .form__input_textarea
+
+    &_textarea {
+      resize: none;
+      border-radius: 8px;
+      height: rem(138);
+    }
+
+    // .form__input_blue
+
+    &_blue {
+      outline: 1px solid #1064E5;
+    }
+    &:focus {
+      outline: 2px solid #1064E5;
+    }
+
+    ._form-error & {
+      outline: 1px solid #B70101;
+    }
+  }
+
+  // .form__error
+
+  &__error {
+    position: absolute;
+    top: 100%;
+    left: rem(15);
+    color: #B70101;
+    font-size: 10px;
+    line-height: 27px;
+  
+		@media (max-width: em(610)){
+			left: rem(16); 
+		}
+	}
+
+  // .form__btn
+
+  &__btn {
+    width: rem(217);
+  
+    &._disabled {
+      opacity: 0.6;
+      pointer-events: none;
+    }
+  }
+
+  // .form__icon
+
+  &__icon {
+    position: absolute;
+    bottom: rem(14);
+    right: rem(20);
+    border-radius: 50%;
+    font-size: rem(12);
+    width: rem(23);
+    height: rem(23);
+    color: #fff;
+    transition: all 0.4s ease 0s;
+    transform: scale(0);
+    background: #01B754;
+    &::before{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+  ._icon-check {
+    background: #01B754 !important;
+  }
+  ._icon-warning {
+    background: #B70101 !important;
+  }
+  ._form-error ._icon-warning {
+    transform: scale(1) !important;
+  }
+  ._form-success ._icon-check {
+    transform: scale(1) !important;
+  }
+  
+}
+//</FORM>
+
+// <BUTTONS>
+// Сніппет (HTML): btn
+@import "button";
+
+// <INPUTS>
+// Сніппет (HTML): inp
+// @import "input";
+
+// <CHECK>
+// Сніппет (HTML): chk
+// @import "checkbox";
+
+// <RADIO>
+// Сніппет (HTML): opt
+// @import "radio";
+
+// <SELECT>
+// Сніппет (HTML): sel
+@import "select";
+
+// <RATING>
+// Сніппет (HTML): rating
+// @import "rating";
+
+// <QUANTITY>
+// Сніппет (HTML): qa
+// @import "quantity";
+
+// <RANGE>
+// Сніппет (HTML):
+// @import "range";
+
+// <CALENDAR>
+// Сніппет (HTML):
+// @import "datepicker";
